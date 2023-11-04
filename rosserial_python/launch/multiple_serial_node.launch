@@ -12,7 +12,7 @@
   </node>
 
   <node pkg="rosserial_python" name="serial_node_3" type="serial_node.py">
-	<param name="~port" value="/dev/ttyACM-arduino-nano-every"/>
+	<param name="~port" value="/dev/ttyACM-arduino"/>
 	<param name="~baud" value="9600"/>
   </node>
 </launch>
