@@ -12,7 +12,12 @@
   </node>
 
   <node pkg="rosserial_python" name="serial_node_3" type="serial_node.py">
+	<param name="~port" value="/dev/ttyUSB-cheekled"/>
+	<param name="~baud" value="57600"/>
+  </node>
+
+<!--  <node pkg="rosserial_python" name="serial_node_4" type="serial_node.py"> 
 	<param name="~port" value="/dev/ttyACM-arduino"/>
 	<param name="~baud" value="9600"/>
-  </node>
+  </node> -->
 </launch>
